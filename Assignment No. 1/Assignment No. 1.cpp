@@ -1,7 +1,7 @@
 #include <array>
 #include <iostream>
-const int MAXNUMBEROFROWS = 3; // Any value can be inserted here
-const int MAXNUMBEROFCOLUMNS = 3; // Any value can be inserted here as well
+const int MAXNUMBEROFROWS = 100; // Any value can be inserted here
+const int MAXNUMBEROFCOLUMNS = 100; // Any value can be inserted here as well
 void printArray(std::array < std::array<int, MAXNUMBEROFCOLUMNS>, MAXNUMBEROFROWS>& arr, int nrrows, int nrcolumns) {
 	for (int i = 0; i < nrrows; ++i) {
 		for (int j = 0; j < nrcolumns; ++j) {
