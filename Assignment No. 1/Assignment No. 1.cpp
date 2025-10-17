@@ -22,7 +22,7 @@ void fillArray(std::array < std::array<int, MAXNUMBEROFCOLUMNS>, MAXNUMBEROFROWS
 
 int main() {
 	std::array<std::array<int, MAXNUMBEROFCOLUMNS>, MAXNUMBEROFROWS > matrix;
-	fillArray(matrix, MAXNUMBEROFCOLUMNS, MAXNUMBEROFROWS);
-	printArray(matrix, MAXNUMBEROFCOLUMNS, MAXNUMBEROFROWS);
+	fillArray(matrix, 5, 4);
+	printArray(matrix, 5, 4);
 	return 0;
 }
